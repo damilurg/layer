@@ -75,7 +75,8 @@ p {
 }
 
 .form-section button, form input {
-  border: 0
+  border: 0;
+  border-radius: 0;
 }
 
 .hide {
@@ -167,7 +168,7 @@ form input {
   border-bottom: 1px solid var(--color-black);
   outline: 0;
   appearance: none;
-  border-radius: 0;
+  -webkit-appearance: none;
 }
 
 form svg {
